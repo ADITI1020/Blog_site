@@ -1,0 +1,231 @@
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTaubsu2vKzUwuoosjdTRUQ-xaFSVkUZ2EuWA&usqp=CAU) no-repeat 50% 50%;
+    background-size: cover; 
+}
+
+.name{
+    margin-left: 400px;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 40px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 40px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 0;
+    }
+    nav {
+      position: fixed;
+      width: 100%;
+      line-height: 40px;
+  }
+
+    nav ul {
+      line-height: 40px;
+      list-style: none ;
+      background: rgba(0, 0, 0, 0);
+      overflow: auto;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 5px;
+      transition: 1s;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          padding: 5px;
+          text-align: right;
+          display: inline-block;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 13px;
+  }
+
+    .menu-icon {
+          position: fixed;
+          top: 0;
+          margin-top: 0;
+    }
+
+    .mapBox {
+        height: 420px;
+        margin-bottom: 80px;
+      }
+    }
+  
+      .contact_info .info_item {
+        position: relative;
+        padding-left: 45px;
+      }
+      
+      .contact_info .info_item i {
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 20px;
+        line-height: 24px;
+        color: #6f6fff;
+        font-weight: 600;
+      }
+      
+      .contact_info .info_item h6 {
+        font-size: 16px;
+        line-height: 24px;
+        color: "Inconsolata", monospace;
+        font-weight: bold;
+        margin-bottom: 0px;
+        color: #000;
+      }
+      
+      .contact_info .info_item h6 a {
+        color: #000;
+      }
+      
+      .contact_info .info_item p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 2px 0px;
+      }
+      
+      .contact_form .form-group {
+        margin-bottom: 10px;
+      }
+      
+      .contact_form .form-group .form-control {
+        font-size: 13px;
+        line-height: 26px;
+        color: #999;
+        border: 1px solid #eeeeee;
+        font-family: "Inconsolata", monospace;
+        border-radius: 0px;
+        padding-left: 20px;
+        background: #f9f9ff;
+      }
+      
+      .contact_form .form-group .form-control:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: none;
+      }
+      
+      .contact_form .form-group .form-control.placeholder {
+        color: #999;
+      }
+      
+      .contact_form .form-group .form-control:-moz-placeholder {
+        color: #999;
+      }
+      
+      .contact_form .form-group .form-control::-moz-placeholder {
+        color: #999;
+      }
+      
+      .contact_form .form-group .form-control::-webkit-input-placeholder {
+        color: #999;
+      }
+      
+      .contact_form .form-group textarea {
+        resize: none;
+      }
+      
+      .contact_form .form-group textarea.form-control {
+        height: 140px;
+      }
+      
+      .contact_form .submit_btn {
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+
