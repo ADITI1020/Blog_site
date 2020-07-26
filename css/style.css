@@ -57,7 +57,7 @@ nav.black ul {
 
 nav ul li {
     display: inline-block;
-    padding: 16px 40px;;
+    padding: 16px 40px;
 }
 
 nav ul li a {
@@ -90,14 +90,30 @@ nav ul li a {
 @media(max-width: 786px) {
 
     .logo {
-          position: fixed;
-          top: 0;
-          margin-top: 0;
+        position: fixed;
+        top: 0;
+        margin-top: 0;
     }
 
+    nav {
+        position: fixed;
+        width: 100%;
+        line-height: 40px;
+    }
+    
+
+
     nav ul {
-          max-height: 0px;
-          background: #000;
+        line-height: 40px;
+        list-style: none ;
+        background: rgba(0, 0, 0, 0);
+        overflow: auto;
+        color: #fff;
+        padding: 0;
+        text-align: right;
+        margin: 0;
+        padding-right: 5px;
+        transition: 1s;
     }
 
     nav.black ul {
@@ -109,14 +125,22 @@ nav ul li a {
     }
 
     nav ul li {
-          box-sizing: border-box;
-          width: 100%;
-          padding: 24px;
-          text-align: center;
+          
+          padding: 5px;
+          text-align: right;
+          display: inline-block;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px;
     }
 
     .menu-icon {
-          display: block;
+        position: fixed;
+        top: 0;
+        margin-top: 0;
     }
 
 }
