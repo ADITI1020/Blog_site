@@ -3873,11 +3873,19 @@ h6 {
   color: #6f6fff;
 }
 
+<<<<<<< HEAD
+    nav ul li {
+          padding: 5px;
+          text-align: right;
+          display: inline-block;
+    }
+=======
 .f_social_wd p {
   font-size: 14px;
   color: #777777;
   margin-bottom: 15px;
 }
+>>>>>>> 36255b47c634fa2fcdd554e553f57d73a6bbc46d
 
 .f_social_wd .f_social a {
   font-size: 14px;
