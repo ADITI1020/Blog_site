@@ -1,6 +1,5 @@
 
-header {
-}
+
 
 .content {
     width: 94%;
@@ -84,6 +83,55 @@ nav ul li a {
     text-decoration: underline;
 }
 
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-left: 0;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding-left: 16px;
+}
+
+#con{
+  float: right;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 @media(max-width: 786px) {
 
     .logo {
